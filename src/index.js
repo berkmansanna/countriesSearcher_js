@@ -30,6 +30,7 @@ const onEmptyInput = () => {
 
 const renderHTML = nameCountries => {
   if (nameCountries.length > 10) {
+    c;
     Notiflix.Notify.info('Too many matches found. Please enter a more specific name.');
   } else if (nameCountries.length >= 2 && nameCountries.length <= 10) {
     renderCountriesList(nameCountries);
